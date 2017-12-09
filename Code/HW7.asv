@@ -102,7 +102,7 @@ acc=sum(acc_rate)/M
 str={'\rho_1','\rho_2','\phi_1','\phi_2','\beta','\sigma_\epsilon','\sigma_1','\sigma_2'};
 for i=1:8
     subplot(2,4,i)
-    hist(parameters(:,i),30,'EdgeColor','none','FaceColor','c');
+    hist(parameters(:,i),1);
     title(str{i});
 end
 
